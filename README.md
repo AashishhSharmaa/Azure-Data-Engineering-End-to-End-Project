@@ -106,6 +106,31 @@ o	Writes them to the Raw Data Lake container
 
 ![8  Dump - Raw DL](https://github.com/user-attachments/assets/6dda409c-66ce-4191-a8ec-84f731fa92aa)
 
+### **d. Azure Databricks – Data Transformation**
+
+•	Created a Databricks resource "adeproject-databricks".
+
+•	Created a compute cluster and a notebook using PySpark.
+
+![9  Databricks - Compute](https://github.com/user-attachments/assets/bdcebf8d-951d-4814-8e72-48fa66080eda)
+
+•	Registered an Azure App (App01) and used Azure Key Vault to store authentication secrets.
+
+•	Mounted the Data Lake containers into Databricks using the secrets.
+
+![10  Config + Mount  DB-Adls](https://github.com/user-attachments/assets/ad02a558-ce52-4edd-96d2-d1b10194656b)
+
+•	Transformed the datasets using PySpark (e.g., filtering nulls, formatting, joins).
+
+![11  Databricks - Transformation](https://github.com/user-attachments/assets/71deb669-5abd-4378-b78a-2150ad89737e)
+
+•	Saved the transformed files into the Transformed Data Lake.
+
+![12  Databricks - Dump into TRFM Data Lake](https://github.com/user-attachments/assets/f5581db2-ed97-4447-b575-e4a3c25403db)
+
+![12 1  Transform Data Lake](https://github.com/user-attachments/assets/85e6b702-9ed8-4d32-99a5-280f41cc18e3)
+
+
 
 
 
