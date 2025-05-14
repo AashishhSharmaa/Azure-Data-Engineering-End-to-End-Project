@@ -47,4 +47,25 @@ The following services and technologies were utilized in this project:
 
 •	Visualization: Power BI
 
+## **5. Languages Used**
+
+•	Python (PySpark) for data transformation
+
+•	SQL for querying insights from Synapse
+
+•	DAX in Power BI for data modeling and visualization
+
+## **6. Data Pipeline Architecture**
+
+![2  Data Pipeline Architecture](https://github.com/user-attachments/assets/dc9d8602-55a9-4aa1-b0f4-7ccf30f71fc3)
+
+
+The flow of the pipeline is as follows:
+
+1.	Data Source (GitHub): Stores the raw CSV datasets.
+2.	Azure Data Factory: Ingests files from GitHub and moves them to the Raw Data Lake container.
+3.	Azure Databricks: Pulls data from the Raw Data Lake, performs transformations using PySpark, and stores the results into the Transformed Data Lake.
+4.	Azure Synapse Analytics: Imports the cleaned datasets from the Transformed Data Lake and creates structured tables. SQL queries are used to extract insights.
+5.	Power BI: Connects to Synapse and visualizes the insights in an interactive dashboard.
+
 
