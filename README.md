@@ -78,11 +78,11 @@ The flow of the pipeline is as follows:
 
 •	Set up a Storage Account “adeprojectdata” with two containers:
 
-![4  Storage Accountt](https://github.com/user-attachments/assets/ef779936-53e8-40a5-8102-1f9345fe737c)
-
 o	raw – for raw CSV ingestion
 
 o	transformed – for storing cleaned datasets
+
+![4  Storage Accountt](https://github.com/user-attachments/assets/ef779936-53e8-40a5-8102-1f9345fe737c)
 
 ![5  Data Lakes](https://github.com/user-attachments/assets/043d5c71-9bb4-424b-be17-3ecbb20c353c)
 
