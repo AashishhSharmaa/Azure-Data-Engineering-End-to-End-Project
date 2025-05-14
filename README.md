@@ -15,9 +15,13 @@ The objective of this project is to develop a complete data pipeline using vario
 
 The dataset used in this project is based on the Tokyo Olympics 2021. It includes the following five CSV files stored on GitHub:
 •	**Athletes**
+
 •	**Coaches**
+
 •	**Entries by Gender**
+
 •	**Medals**
+
 •	**Teams**
 
 **Source:** Kaggle - Tokyo Olympics 2021 Dataset
