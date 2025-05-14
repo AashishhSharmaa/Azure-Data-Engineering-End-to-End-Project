@@ -128,9 +128,45 @@ o	Writes them to the Raw Data Lake container
 
 ![12  Databricks - Dump into TRFM Data Lake](https://github.com/user-attachments/assets/f5581db2-ed97-4447-b575-e4a3c25403db)
 
+Transformed Data Lake container
 ![12 1  Transform Data Lake](https://github.com/user-attachments/assets/85e6b702-9ed8-4d32-99a5-280f41cc18e3)
 
+### **e. Azure Synapse Analytics – Data Warehousing & Querying**
 
+•	Created a Synapse workspace "adeproject-azsynapse".
 
+•	Created a dedicated SQL pool and imported the transformed datasets into structured tables:
+o	Athletes, Coaches, EntriesGender, Medals, Teams
 
+![13  Azure Sy - Database  pull from trfm dl](https://github.com/user-attachments/assets/77348cce-cf64-415e-93d6-741c9be2bb36)
+
+•	Wrote SQL queries to extract meaningful insights from the datasets.
+
+![14  Azure Sy - SQL query](https://github.com/user-attachments/assets/2c41368c-ec25-4a0c-8578-c08929518597)
+
+### **f. Power BI – Visualization**
+
+•	Connected Power BI to Azure Synapse using the Azure SQL Database connector.
+
+•	Imported the tables and created interactive dashboards:
+
+![15  Power BI Dashboard](https://github.com/user-attachments/assets/7a50d380-278c-41e9-b80d-39b8b7097aed)
+
+### **8. Conclusion**
+
+This project successfully demonstrates the implementation of a full data engineering and analytics pipeline using Azure services. It covers every stage of the data lifecycle—from ingestion to transformation, querying, and visualization—highlighting how Azure tools can be integrated for scalable data solutions.
+
+### **Key Skills Developed**
+
+•	Building end-to-end pipelines using Azure Data Factory
+
+•	Performing large-scale transformations using Databricks + PySpark
+
+•	Managing secure access with App Registration & Key Vault
+
+•	Querying structured data in Azure Synapse
+
+•	Creating dashboards with Power BI & DAX
+
+•	Integrating cloud services and automating data flows
 
