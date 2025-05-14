@@ -14,6 +14,7 @@ The objective of this project is to develop a complete data pipeline using vario
 ## 3. Data Used
 
 The dataset used in this project is based on the Tokyo Olympics 2021. It includes the following five CSV files stored on GitHub:
+
 •	**Athletes**
 
 •	**Coaches**
