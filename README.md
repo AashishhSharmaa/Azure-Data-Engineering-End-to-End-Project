@@ -78,12 +78,34 @@ The flow of the pipeline is as follows:
 
 •	Set up a Storage Account “adeprojectdata” with two containers:
 
+![4  Storage Accountt](https://github.com/user-attachments/assets/ef779936-53e8-40a5-8102-1f9345fe737c)
+
 o	raw – for raw CSV ingestion
 
 o	transformed – for storing cleaned datasets
 
-![4  Storage Accountt](https://github.com/user-attachments/assets/ef779936-53e8-40a5-8102-1f9345fe737c)
-
 ![5  Data Lakes](https://github.com/user-attachments/assets/043d5c71-9bb4-424b-be17-3ecbb20c353c)
+
+### **b. GitHub – Data Source**
+
+The Olympic dataset is hosted in CSV format on GitHub.
+
+![6  Github Rep Image](https://github.com/user-attachments/assets/eb888d09-453d-4e36-8a9c-644b7f6b4140)
+
+### **c. Azure Data Factory – Data Ingestion**
+
+•	Created a Data Factory resource named "adeproject-adf".
+
+•	Built a pipeline using the Author tab, which:
+
+o	Reads CSV files from GitHub using HTTP connector
+
+![7  ADF ETL workflow](https://github.com/user-attachments/assets/bd0002ee-6973-444a-93cf-d250d47133cb)
+
+o	Writes them to the Raw Data Lake container
+
+![8  Dump - Raw DL](https://github.com/user-attachments/assets/6dda409c-66ce-4191-a8ec-84f731fa92aa)
+
+
 
 
