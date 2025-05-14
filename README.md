@@ -32,10 +32,19 @@ This dataset contains information on over 11,000 athletes, 47 disciplines, and 7
 The following services and technologies were utilized in this project:
 
 •	Version Control: GitHub
+
 •	Cloud Platform: Microsoft Azure
+
 •	Data Ingestion: Azure Data Factory
+
 •	Data Storage: Azure Data Lake Storage Gen2
+
 •	Data Transformation: Azure Databricks with Apache Spark (PySpark)
+
 •	Authentication & Access: Azure App Registration & Key Vault
+
 •	Data Warehousing: Azure Synapse Analytics
+
 •	Visualization: Power BI
+
+
