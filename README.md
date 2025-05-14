@@ -128,7 +128,7 @@ o	Writes them to the Raw Data Lake container
 
 ![12  Databricks - Dump into TRFM Data Lake](https://github.com/user-attachments/assets/f5581db2-ed97-4447-b575-e4a3c25403db)
 
-Transformed Data Lake container
+• Transformed Data Lake container
 ![12 1  Transform Data Lake](https://github.com/user-attachments/assets/85e6b702-9ed8-4d32-99a5-280f41cc18e3)
 
 ### **e. Azure Synapse Analytics – Data Warehousing & Querying**
