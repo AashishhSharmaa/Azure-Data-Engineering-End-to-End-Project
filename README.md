@@ -68,4 +68,21 @@ The flow of the pipeline is as follows:
 4.	Azure Synapse Analytics: Imports the cleaned datasets from the Transformed Data Lake and creates structured tables. SQL queries are used to extract insights.
 5.	Power BI: Connects to Synapse and visualizes the insights in an interactive dashboard.
 
+## **7. Stage-by-Stage Breakdown**
+
+a. Initial Setup
+•	Created a Resource Group named “Azure-DE-Project”.
+
+![3  Resource Gorup](https://github.com/user-attachments/assets/8c949d70-8866-4cdb-aa5c-e397d6663144)
+
+•	Set up a Storage Account “adeprojectdata” with two containers:
+
+![4  Storage Accountt](https://github.com/user-attachments/assets/ef779936-53e8-40a5-8102-1f9345fe737c)
+
+o	raw – for raw CSV ingestion
+
+o	transformed – for storing cleaned datasets
+
+![5  Data Lakes](https://github.com/user-attachments/assets/043d5c71-9bb4-424b-be17-3ecbb20c353c)
+
 
