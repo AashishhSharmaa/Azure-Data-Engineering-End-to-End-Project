@@ -70,7 +70,8 @@ The flow of the pipeline is as follows:
 
 ## **7. Stage-by-Stage Breakdown**
 
-a. Initial Setup
+### **a. Initial Setup**
+
 •	Created a Resource Group named “Azure-DE-Project”.
 
 ![3  Resource Gorup](https://github.com/user-attachments/assets/8c949d70-8866-4cdb-aa5c-e397d6663144)
